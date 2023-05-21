@@ -14,7 +14,8 @@ public class EmployeeWageComputation {
         while (Totle_emp_hours<=Max_hours_in_month && Totle_working_days < No_of_working_days) {
             Totle_working_days++;
             int empcheck = (int) ((Math.random() * 10) % 3);
-            switch (empcheck) {
+            switch (empcheck)
+            {
                 case Part_time:
                     emp_hours = 4;
                     break;
