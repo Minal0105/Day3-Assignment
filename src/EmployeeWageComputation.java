@@ -21,7 +21,6 @@ public class EmployeeWageComputation {
                 default:
                     emp_hours = 0;
             }
-
             emp_wage = emp_hours * Emp_rate_per_hour;
             Totle_emp_wage += emp_wage;
             System.out.println("Emp_wage : " + emp_wage);
