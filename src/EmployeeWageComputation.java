@@ -7,7 +7,8 @@ public class EmployeeWageComputation {
         int emp_hours=0;
         int emp_wage=0;
         int empcheck=(int)((Math.random()*10)%4);
-        switch(empcheck){
+        switch(empcheck)
+        {
             case Full_time :
                 emp_hours=9;
                 break;
