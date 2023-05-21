@@ -8,7 +8,6 @@ public class EmployeeWageComputation {
         int empcheck=(int)((Math.random()*10)%3);
         if(empcheck==Part_time){
             emp_hours=8;
-
         }
         else if(empcheck==Full_time) {
             emp_hours=10;
